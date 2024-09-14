@@ -24,7 +24,7 @@ const Hero = () => {
               words="Transforming Idea's into Web Apps"
             />
 
-            <p className='tracking-wide text-lg'>Namaste! I'm AaraV, a Full Stack Engineer based in Delhi</p>
+            <p className='tracking-wide text-lg'>Namaste! I'm AaraV, Full Stack Engineer</p>
 
          <a href="#about">
             <MagicButton 
