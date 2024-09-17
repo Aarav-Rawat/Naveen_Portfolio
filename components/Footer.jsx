@@ -1,9 +1,18 @@
 import React from 'react'
+import { FloatingDock } from './ui/FloatingDock'
+import { socialMedia } from '@/data'
+
+
 
 const Footer = () => {
   return (
-    <div className="h-[90vh] w-full">
-        <h3 className='text-6xl font-bold text-start'> Connect with <span className='text-purple'>Me</span></h3>
+    <div className="h-[40vh] w-full flex justify-center">
+        {
+            socialMedia.map((item)=>(
+
+                <FloatingDock key={1} item={item}></FloatingDock>
+            ))
+        }
     </div>
   )
 }
