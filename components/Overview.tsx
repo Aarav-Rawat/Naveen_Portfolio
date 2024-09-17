@@ -5,7 +5,7 @@ import { GlareCard } from './ui/GlareCard'
 
 const Overview = () => {
     return (
-        <div className="flex justify-center items-start min-h-[100vh]">
+        <div className="flex justify-center items-start min-h-[100vh] text-start">
             <BackgroundBeamsWithCollision className="relative w-full py-5">
                 <div className="text-center flex flex-col gap-5">
                     <h1 className="text-6xl font-bold mr-[70vw] text-purple">Overview.</h1>

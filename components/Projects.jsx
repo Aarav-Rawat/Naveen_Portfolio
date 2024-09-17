@@ -1,15 +1,32 @@
-import React from 'react'
-import { PinContainer, PinPerspective } from './ui/3dPin'
+"use client";
+import React from "react";
+import { PinContainer, PinPerspective } from "./ui/3dPin";
+import { projects } from "@/data";
 
 const Projects = () => {
   return (
-    <div className='w-full h-[100vh]'>
-        <span className='text-6xl font-bold mr-[70vw] text-purple'>Project's.</span>
-        <PinContainer>
-          <PinPerspective title={"Verzatile - a store"} href={"https://verzatile.onrender.com/"}></PinPerspective>
-        </PinContainer>
-    </div>
-  )
-}
+    <div className="">
+      <span className="text-6xl font-bold text-start text-purple">
+        Project.
+      </span>
 
-export default Projects
+      <div className="flex justify-start items-center ">
+        {projects.map((project) => (
+          <PinContainer
+            title={project.title}
+            href={project.link}
+            key={project.id}
+          >
+            <div className="flex flex-col relative">
+              <img src={project.img} alt="" />
+              <span className="font-bold text-xl">Verzatile - a digital store</span>
+              <p>This is where you can buy products and even create one and become seller to monetize it</p>
+            </div>
+          </PinContainer>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
