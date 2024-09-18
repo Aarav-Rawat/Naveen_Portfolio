@@ -5,19 +5,19 @@ import { projects } from "@/data";
 
 const Projects = () => {
   return (
-    <div className="py-20 relative h-">
+    <div className="py-20 min-h-[100vh]" id="projects">
       <span className="text-6xl font-bold text-start text-purple">
         Project.
       </span>
 
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center h-full ">
         {projects.map((project) => (
           <PinContainer
             title={project.title}
             href={project.link}
             key={project.id}
           >
-            <div className="flex flex-col relative">
+            <div className="flex flex-col ">
               <img src={project.img} alt="" />
               <span className="font-bold text-xl">Verzatile - a digital store</span>
               <p className="mb-3">This is where you can buy products and even create one and become seller to monetize it</p>
@@ -25,6 +25,7 @@ const Projects = () => {
           </PinContainer>
         ))}
       </div>
+     
     </div>
   );
 };

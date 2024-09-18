@@ -27,7 +27,7 @@ const Hero = () => {
 
             <p className='tracking-wide text-lg'>Transforming Idea's into Web App's</p>
 
-         <a href="#about">
+         <a href="#projects">
             <MagicButton 
             title={"See My Work"}
              icon={<CiLocationArrow1/>}

@@ -4,11 +4,19 @@ import { FaGithub } from "react-icons/fa";
 export const socialMedia = [
   {
     title: "GitHub",
-    href: "https://github.com/Aarav-Rawat",
-    icon: FaGithub,
-    
+    link: "https://github.com/Aarav-Rawat",
+    img: '/git.svg',
   },
-  
+  {
+    title: "X",
+    link: "https://x.com/AaravRawat2005",
+    img: '/twit.svg',
+  },
+  {
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/aaravrawat/",
+    img:  '/link.svg',
+  },  
 ];
 
 export const navItems = [
