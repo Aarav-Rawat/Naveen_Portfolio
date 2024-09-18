@@ -6,16 +6,19 @@ export const socialMedia = [
     title: "GitHub",
     link: "https://github.com/Aarav-Rawat",
     img: '/git.svg',
+    index: '1'
   },
   {
     title: "X",
     link: "https://x.com/AaravRawat2005",
     img: '/twit.svg',
+    index: '2'
   },
   {
     title: "Linkedin",
     link: "https://www.linkedin.com/in/aaravrawat/",
     img:  '/link.svg',
+    index: '3'
   },  
 ];
 

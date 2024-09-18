@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='flex w-full items-center justify-center gap-5'>
         {
             socialMedia.map((item)=>(
-              <a href={item.link} className='text-center'>
+              <a key={item.id} href={item.link} className='text-center'>
                   <img src={item.img} alt="" />
               </a>
             ))
