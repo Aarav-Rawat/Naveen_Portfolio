@@ -1,5 +1,6 @@
 import React from 'react'
 import { socialMedia } from '@/data'
+import Image from 'next/image'
 
 
 
@@ -14,7 +15,7 @@ const Footer = () => {
         {
             socialMedia.map((item)=>(
               <a key={item.id} href={item.link} className='text-center'>
-                  <img src={item.img} alt="" />
+                  <Image src={item.img} alt="" />
               </a>
             ))
           }
