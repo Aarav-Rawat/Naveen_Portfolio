@@ -1,7 +1,6 @@
 import React from 'react'
 import { socialMedia } from '@/data'
-import { MagicButton } from './ui/MagicButton'
-import { SiGmail } from "react-icons/si";
+
 
 
 

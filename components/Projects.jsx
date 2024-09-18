@@ -2,6 +2,7 @@
 import React from "react";
 import { PinContainer } from "./ui/3dPin";
 import { projects } from "@/data";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
             key={project.id}
           >
             <div className="flex flex-col ">
-              <img src={project.img} alt="" />
+              <Image src={project.img} alt="" />
               <span className="font-bold text-xl">Verzatile - a digital store</span>
               <p className="mb-3">This is where you can buy products and even create one and become seller to monetize it</p>
             </div>
