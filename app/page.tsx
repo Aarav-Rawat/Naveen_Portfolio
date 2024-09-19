@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className=" bg-black-100 relative flex items-center justify-center flex-col overflow-hidden mx-auto text-white py-2 px-20">
+    <main className=" bg-black-100 relative flex items-center justify-center flex-col overflow-hidden mx-auto text-white py-2">
       <div className="">
         <Hero />
         <Overview/>

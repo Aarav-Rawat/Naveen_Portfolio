@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="py-20 min-h-[100vh]" id="projects">
-      <span className="text-6xl font-bold text-start text-purple">
+    <div className="min-h-[100vh] w-[100vw]" id="projects">
+      <span className="text-6xl font-bold text-start flex justify-start text-purple">
         Project.
       </span>
 
