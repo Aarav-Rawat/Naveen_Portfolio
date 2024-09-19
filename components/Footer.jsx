@@ -15,7 +15,7 @@ const Footer = () => {
         {
             socialMedia.map((item)=>(
               <a key={item.id} href={item.link} className='text-center'>
-                  <Image src={item.img} alt="" />
+                  <Image src={item.img} alt="" width={22} height={22}/>
               </a>
             ))
           }

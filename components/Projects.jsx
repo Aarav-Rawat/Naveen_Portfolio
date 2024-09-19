@@ -19,7 +19,7 @@ const Projects = () => {
             key={project.id}
           >
             <div className="flex flex-col ">
-              <Image src={project.img} alt="" />
+              <Image src={project.img} alt="" width={600} height={200}/>
               <span className="font-bold text-xl">Verzatile - a digital store</span>
               <p className="mb-3">This is where you can buy products and even create one and become seller to monetize it</p>
             </div>
