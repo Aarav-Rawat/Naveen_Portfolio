@@ -32,8 +32,17 @@ export const socialMedia = [
       id: 1,
       title: "Visit",
       des: "This is where you can be a customer and seller",
-      img: "/ecom.png",
+      img: "/e-com.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://verzatile.onrender.com/",
     },
+    {
+      id: 2,
+      title: "Visit",
+      des: "Freelance Project",
+      img: "/dailycombo.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://dailycombos.vercel.app/",
+    },
+    
   ];

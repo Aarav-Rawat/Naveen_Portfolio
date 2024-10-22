@@ -6,12 +6,12 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="min-h-[100vh] w-[100vw]" id="projects">
+    <div className="min-h-full w-[100vw]" id="projects">
       <span className="text-6xl font-bold text-start flex justify-start text-purple">
         Project.
       </span>
 
-      <div className="flex justify-center items-center h-full ">
+      <div className="flex flex-col justify-center items-center h-full">
         {projects.map((project) => (
           <PinContainer
             title={project.title}
