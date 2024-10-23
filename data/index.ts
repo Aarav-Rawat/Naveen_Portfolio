@@ -29,20 +29,23 @@ export const socialMedia = [
   
   export const projects = [
     {
-      id: 1,
-      title: "Visit",
-      des: "This is where you can be a customer and seller",
-      img: "/e-com.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://verzatile.onrender.com/",
-    },
-    {
       id: 2,
       title: "Visit",
-      des: "Freelance Project",
+      name:"DailyCombos - freelance",
+      des: "Tap-To-Earn coins daily mission , riddle solution",
       img: "/dailycombo.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://dailycombos.vercel.app/",
     },
+    {
+      id: 1,
+      title: "Visit",
+      name:"Verzatile - Digital Store",
+      des: "This is where you can buy products and even create one and become seller to monetize it",
+      img: "/e-com.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://verzatile.onrender.com/",
+    },
+   
     
   ];
