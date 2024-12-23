@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="min-h-full w-[100vw]" id="projects">
+    <div className="min-h-full w-[100vw] " id="projects">
       <span className="text-6xl font-bold text-start flex justify-start text-purple">
-        Project.
+        My-Shop.
       </span>
 
       <div className="flex flex-col justify-center items-center h-full">

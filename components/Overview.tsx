@@ -9,27 +9,31 @@ const Overview = () => {
             <BackgroundBeamsWithCollision className="relative w-full">
                 <div className=" flex flex-col gap-5 text-start">
                     <h1 className="text-6xl font-bold text-start text-purple">Overview.</h1>
-                    <p className="mb-10 flex items-center justify-start text-xl w-[70vw] text-[#AAA6C3] text-start">I&apos;m mastering full stack engineering proficient in JavaScript, with expertise in React.js for client-side development, Node.js and Express.js for server-side applications, and MongoDB for database management. Additionally, I am expanding my skills by learning Next.js for full-stack development. I also have an interest in modern UI libraries such as Acceternity and Shadcn. I have a great foundation in Data Structures and Algorithms (DSA) using C/C++, with a good understanding of OOP&apos;s principles and proficiency in the Standard Template Library (STL).
+                    <p className="mb-10 flex items-center justify-start text-xl w-[70vw] text-[#AAA6C3] text-start">Kirmada - Your Trusted Brand on Amazon
+                      <br />
+                        Kirmada is a highly-rated brand on Amazon,specializing in premium electronic accessories that customers love. Our top-selling products include glass mobile covers, designed to provide sleek, durable, and stylish protection for your devices, and mouse pads that deliver unmatched comfort and precision.
+
+                        As one of the best in the glass mobile cover category, Kirmada is dedicated to offering products that meet the highest standards of quality and customer satisfaction. When you choose Kirmada on Amazon, you choose reliability, style, and value.
                     </p>
 
                     <div className='flex gap-10 items-center justify-center flex-wrap'>
                         <GlareCard >
                             <div className='flex flex-col items-center justify-center w-full h-[60%]'>
-                                <span className="text-4xl font-bold">Front-End</span>     
+                                <span className="text-5xl font-bold">Mobile <br /> Cover</span>
                             </div>
                         </GlareCard>
 
                         <GlareCard>
                             <div className='flex flex-col items-center justify-center w-full h-[60%]'>
-                                <span className="text-4xl font-bold">Back-End</span>
-                               
+                                <span className="text-5xl font-bold">Mouse <br /> Pad</span>
+
                             </div>
                         </GlareCard>
 
                         <GlareCard>
                             <div className='flex flex-col items-center justify-center w-full h-[60%]'>
-                                <span  className="text-4xl font-bold">Software <br/> Engineering</span>
-                                
+                                <span className="text-5xl font-bold">Electroic <br /> Accessories</span>
+
                             </div>
                         </GlareCard>
                     </div>

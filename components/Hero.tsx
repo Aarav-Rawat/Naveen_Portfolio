@@ -22,14 +22,14 @@ const Hero = () => {
           <div className='max-w-[80vw] flex flex-col items-center justify-center'>
 
             <TextGenerateEffect
-              words="Namaste! I&apos;m AaraV"
+              words="Namaste! I&apos;m Naveen"
             />
 
-            <p className='tracking-wide text-lg'>Transforming Idea&apos;s into Web App&apos;s</p>
+            <p className='tracking-wide text-lg'>Electronic Accessories Seller on Amazon</p>
 
          <a href="#projects">
             <MagicButton 
-            title={"See My Work"}
+            title={"See My Shop"}
              icon={<CiLocationArrow1/>}
             />
          </a>
